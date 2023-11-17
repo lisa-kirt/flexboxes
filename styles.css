@@ -1,0 +1,60 @@
+/* goal:  learn how to use flexboxes with
+images and words (paragraphs).  i used
+spanish words for classes so that i don't
+get confused ... lots of similar words in
+coding ... thanks! (^.^) */
+
+* {
+
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+body {
+
+  margin: 0;
+
+}
+
+h1 {
+
+    text-align: center;
+    padding: 20px;
+    border: 1px;
+    border-color: #CE007B;
+
+}
+
+p {
+
+  width: 40%;
+  padding: 20px;
+
+}
+
+img {
+
+    width: 40%;
+    padding: 20px;
+
+}
+
+.caja {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.palabras {
+
+
+
+}
+
+.pinturas {
+
+
+
+}
